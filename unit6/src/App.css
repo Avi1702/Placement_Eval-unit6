@@ -1,0 +1,80 @@
+.Login{
+  width: 20%;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  align-items: center;
+  padding: 20px;
+}
+.input_part{
+  display: flex;
+  flex-direction: column;
+}
+
+#data_grid{
+
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,300px);
+  gap: 20px;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+#data_grid>div{
+  border: 1px solid black;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#price_rating{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#price_rating div+div{
+  background-color: green;
+  border-radius: 7px;
+  padding: 2px;
+  color: white;
+}
+
+#pagination{
+  width: 50%;
+  height: 30px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  /* border: 0.5px solid black; */
+}
+
+#Asc_Desc{
+
+  display: flex;
+  width: 22%;
+  margin-top: 30px;
+  justify-content: space-evenly;
+  /* border: 1px solid black; */
+}
+#rating_filter{
+  width: 40%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+table,td{
+  border:1px solid black;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  padding: 10px;
+}
+thead>tr{
+  font-size: 20px;
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-weight: bolder;
+  color: indigo;
+}
